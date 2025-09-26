@@ -1,0 +1,57 @@
+body{
+color:rgb(10, 163, 156);
+background:rgb(0, 107, 139);
+margin: 0px;
+ font-family: "Arvo", serif;
+ margin-bottom: 100px;
+}
+
+
+
+header{
+border-bottom: solid 2px rgb(5, 153, 5);
+padding: 20px;
+font-size: 32px;
+color:rgb(211, 22, 22);
+}
+.um {
+background: rgb(206, 17, 10);
+padding-bottom: 80px;
+padding-top:80px;
+display: flex;
+justify-content: center;
+
+}
+
+.chamada-texto{margin-right: 5%
+}
+h1{
+    font-size: 40px;
+}
+
+p{
+font-size:20px;
+
+}
+
+.videos{
+  display: flex;
+    overflow-x: auto;
+    gap: 10px    ;
+}
+.dois{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.videos img{
+   opacity: 0.5;
+   height: 150px;
+}
+.videos img:hover{
+    opacity: 1.0;
+    border: 5px solid purple
+}
+.dois h2{
+    color:rgb(211, 22, 22)
+}
